@@ -1,0 +1,18 @@
+package javaBasic2.ch05.sec03;
+
+public class 이차원배열 {
+
+	public static void main(String[] args) {
+		
+		
+		int[][] intArr = { {1,2},{2,3},{3,4} };
+		
+		String[][] strArr = { {"a","b","c"},{"d","e","f"} };
+		
+		boolean[][] bArr = { {false,true},{false,true},{true,false},{true,true} };
+		
+		// 이차원배열의 값을 출력하기
+		System.out.println(intArr[2][1]);
+	}
+
+}

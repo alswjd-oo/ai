@@ -1,0 +1,46 @@
+package javaBasic3;
+
+public class 클래스개념 {
+
+	public static void main(String[] args) {
+		// 객체 생성하자마자 값을 넣어주기 
+		Student st= new Student ("230101","홍길동","AI",100,"010-1234-1234");
+		
+		Teacher t= new Teacher ("A32", "정현희","컴공",1000000,"전임",20);
+		
+		// "230101" 출력하기
+		System.out.println(st.get학번());
+		
+		System.out.println(st.get학과());
+		
+		System.out.println(t.get구분());
+		
+		System.out.println(st.get점수());
+		
+		System.out.println(t.get시수());
+		
+		// 필요할 때마다 넣기
+		// 빈 개체 생성하기
+		Student st2= new Student();
+		Teacher t2= new Teacher();
+		
+		// 값 넣기
+		st2.set학번("2201");
+		st2.set이름("이순신");
+		st2.set학과("경영학과");
+		st2.set점수(85);
+		st2.set전화번호("010-234-2345");
+		
+		t2.set코드("B101");
+		t2.set이름("박희연");
+		t2.set전공("피아노");
+		t2.set급여(2000000);
+		t2.set구분("시간강사");
+		t2.set시수(30);
+		
+		System.out.println(st2.get학번() + " " + st2.get이름() + " " + st2.get학과() + " " + st2.get점수() + " " + st2.전화번호);
+		System.out.println(t2.get코드()+" "+t2.get이름()+" "+t2.get전공()+" "+t2.급여+" "+t2.get구분()+" "+t2.시수);
+
+	}
+
+}

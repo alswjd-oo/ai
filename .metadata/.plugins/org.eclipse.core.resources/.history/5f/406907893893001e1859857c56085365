@@ -1,0 +1,25 @@
+package javaBasic.ch04.sec01;
+
+import java.util.Scanner;
+
+public class switch문 {
+
+	public static void main(String[] args) {
+		// 영어 단어 공부 프로그램
+		// 'A'라고 입력하면 Apple이라고 출력
+		// 'B'라고 입력하면 Bear이라고 출력
+		// 'c'라고 입력하면 Cat이라고 출력하기
+		
+		// 키보드입력하기
+		Scanner sc = new Scanner(System.in);
+		System.out.println("영어 첫글자 입력하기(A~C");
+		String word = sc.next();
+		System.out.println(word);
+		
+		// 조건문
+		
+		// 출력하기
+
+	}
+
+}
