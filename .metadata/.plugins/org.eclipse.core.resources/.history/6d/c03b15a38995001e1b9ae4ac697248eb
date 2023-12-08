@@ -1,0 +1,15 @@
+package javaBasic3.ch06.sec05;
+
+public class Calendar {
+	
+	private static Calendar cal = new Calendar();
+	
+	private Calendar() {
+		
+	}
+	
+	public Calendar getInstance() {
+		return cal;
+	}
+
+}

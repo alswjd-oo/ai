@@ -1,0 +1,17 @@
+package javaBasic3.ch06.sec01;
+
+import java.util.Date;
+
+public class 대출현황표_main {
+
+	public static void main(String[] args) {
+		
+		Date now = new Date();
+		String nowTime = now.toString();
+		System.out.println(nowTime);
+		
+		대출현황표  = new 대출현황표("j02-38");
+
+	}
+
+}

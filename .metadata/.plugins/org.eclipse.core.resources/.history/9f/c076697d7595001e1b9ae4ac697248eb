@@ -1,0 +1,23 @@
+package javaBasic3.ch06.sec10.example;
+
+public class Calculator {
+	
+	// 빌드 단계(클래스)에서 자동으로 스택영역에 올라가서 계속 있는다. 
+	static double pi = 3.14159;
+	
+	static int plus(int x, int y) {
+		return x + y;
+	}
+	
+	static int minus(int x, int y) {
+		return x - y;
+	}
+	
+	static int multy(int x, int y) {
+		return x * y;
+	}
+	
+	static int div(int x, int y) {
+		return x / y;
+	}
+}
