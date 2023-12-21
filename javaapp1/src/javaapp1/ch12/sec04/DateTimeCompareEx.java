@@ -35,7 +35,7 @@ public class DateTimeCompareEx {
 	    } else if(currentDate.isEqual(sdt1)) {
 	    	System.out.println("이벤트 마감일 세일 85%");
 	    } else {
-	    	System.out.println("이벤트 종료");,
+	    	System.out.println("이벤트 종료");
 	    }
 		
 
