@@ -85,7 +85,7 @@ while True :
     if x ==-1 :
         break
     else :
-        scores.append(x)
+        scores.append(x) 
 
 sum =0
 for score in scores :
