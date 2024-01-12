@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>회원가입창</title>
+    <link rel="stylesheet" href="../css/memberform.css" />
+  </head>
+  <body>
+    <div id="formInput">
+      <form method="get" action="login.jsp" target="_self"></form>
+      <fieldset>
+        <legend>로그인</legend>
+        <legend name="n1">이&nbsp;름</legend>
+        <input type="text" name="n1" />
+        <legend name="n1">비밀번호</legend>
+        <input type="password" name="n1" />
+        <br />
+        <button value="submit">확인</button>
+        <button value="reset">취소</button>
+      </fieldset>
+      <fieldset>
+        <legend>수강신청인</legend>
+        <ul>
+          <li>
+            <label class="reg" for="class">학번</label>
+            <input type="text" id="name" />
+          </li>
+          <li>
+            <label class="reg" for="class">성별</label>
+            <input type="radio" name="gender" />남자
+            <input type="radio" name="gender" />여자
+          </li>
+          <li>
+            <label class="reg">숫자증가</label>
+            <br />
+            <label>구매상품 확인</label>
+            <label>갯수</label>
+            <input type="checkbox" />구매 확정
+            <input type="number" min="0" max="1000" value="10" />개
+            <br />
+            <label>이벤트 상품 확인</label>
+            <label>갯수</label>
+            <input type="checkbox" />이벤트 상품선택
+            <input type="range" min="0" max="100" value="50" />개
+          </li>
+          <li>
+            <label class="reg">날짜</label>
+            <br />
+            <input type="date" min="2000-01-01" max="2025-12-31" />
+            <input type="month" />
+            <input type="week" />
+          </li>
+          <li>
+            <select id="class">
+              <optgroup label="공과대학">
+                <option value="archi">건축공학과</option>
+                <option value="mechanic">기계공학과</option>
+                <option value="indust">산업공학과</option>
+              </optgroup>
+              <optgroup label="인문대학">
+                <option value="sosi">사회학과</option>
+                <option value="lang">어문학과</option>
+                <option value="philo">철학과</option>
+              </optgroup>
+            </select>
+          </li>
+        </ul>
+        <li>
+          <input
+            type="image"
+            src="../image/logo.png"
+            alt="로고"
+            onclick="window.open('index.html')"
+          />
+        </li>
+        <li>
+          파일첨부
+          <input type="file" />
+        </li>
+      </fieldset>
+    </div>
+  </body>
+</html>
