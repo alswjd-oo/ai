@@ -277,3 +277,30 @@ a.new
 levels(a.new)
 a.new[4]
 as.integer(a.new)
+
+# 추가문제 1
+a <- 4
+b <- 5
+c <- a+b
+c
+
+# 추가문제 2
+x <- 6
+y=2*2+5*x+10
+y
+x <- 8
+y=2*2+5*x+10
+y
+x <- 10s
+y=2*2+5*x+10
+y
+
+# 추가문제 3
+val.a <- 10
+val.b <- 5
+sum.ab <- val.a+val.b
+sum.ab
+
+# 추가문제 4
+vc.1 <- c(95,86,47,55,68)
+vc.1
