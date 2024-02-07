@@ -308,3 +308,15 @@ write.csv(iris.setosa,'irisfilesame.csv')
 write.csv(iris.setosa, 'irisfile.csv', row.names = F)
 
 # write.csv(iris.setosa, file.choose()) 안된다
+
+# 4-1
+s <- swiss
+class(s)
+
+# 4-2
+max(s[,"Agriculture"])
+rownames(subset(s,Agriculture == max(s[,"Agriculture"])))
+
+# 4-3
+
+         
