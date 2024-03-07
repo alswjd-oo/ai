@@ -12,11 +12,13 @@ b = bin_img[bin_img.shape[0]//2:bin_img.shape[0],0:bin_img.shape[0]//2+1]
 plt.imshow(b, cmap='gray'), plt.xticks([]), plt.yticks([])
 plt.show()
 
-se = np.uint8([[0,0,1,0,0,],
-                [0,1,1,1,0],
-                [1,1,1,1,1],
-                [0,1,1,1,0],
-                [0,0,1,0,0,]])
+# se = np.uint8([[0,0,1,0,0,],
+#                 [0,1,1,1,0],
+#                 [1,1,1,1,1],
+#                 [0,1,1,1,0],
+#                 [0,0,1,0,0,]])
+
+se = np.uint8([[1,1,1,1,1]])
 
 
 b_dilation = cv.dilate(b, se, iterations=1)
